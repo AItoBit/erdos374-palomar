@@ -56,7 +56,7 @@ All eighteen declarations in namespace `Erdos374` are selected by Comparator.
 ## Project and verification
 
 `Erdos374.lean` contains the proof development supplied by the author, with
-compatibility repairs documented in commit history. `Solution.lean` publicly
+bibliographic corrections documented in commit history. `Solution.lean` publicly
 imports it. `Challenge.lean` independently repeats the definitions and theorem
 types with deliberate proof holes, importing only pinned Mathlib modules.
 The holes belong only to the statement module; the Solution must be checked
@@ -68,7 +68,7 @@ The GitHub Actions workflow calls Palomar's full reusable verifier, including
 Comparator and NanoDa, at a fixed pipeline commit with `palomar-standard-v1`.
 Its mechanical report is the source of verification status.
 
-Codex assisted with submission packaging and compatibility repairs. Details
+Codex assisted with submission packaging and verification. Details
 of original proof generation and independent human review were not supplied.
 Authorship was confirmed by alexander. No previous formalization was identified
 in the limited submission preparation search; this is not an exhaustive survey.

@@ -62,7 +62,7 @@ automation:
       models: ["GPT-6"]
       framework: "Codex"
       tool_setup: >-
-        Submission packaging, import-path compatibility repair, bibliographic
+        Submission packaging, bibliographic
         correction, independent Challenge extraction and verification setup.
         Original proof-generation methods were not supplied by the author.
   notes: >-
@@ -81,7 +81,8 @@ review:
   status: "No independent human review reported"
   reviewers: []
   notes: >-
-    Submission packaging includes static statement inspection. Lean, Comparator,
+    Submission packaging includes static statement inspection and a successful
+    local Lean build. Lean, Comparator,
     and NanoDa verification is provided by the pinned full mechanical workflow.
     No human expert endorsement is claimed.
 acknowledgements: "Lean, Mathlib, Comparator, NanoDa, and Palomar tooling."

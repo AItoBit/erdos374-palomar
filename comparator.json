@@ -1,0 +1,31 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Erdos374.rep_two",
+    "Erdos374.square_inD_two",
+    "Erdos374.adjacent_identity",
+    "Erdos374.four_factor_identity",
+    "Erdos374.six_factor_identity",
+    "Erdos374.minimum_unique",
+    "Erdos374.prime_no_rep",
+    "Erdos374.product_separated_rep_six",
+    "Erdos374.product_adjacent_rep_four",
+    "Erdos374.product_equal_rep_two",
+    "Erdos374.product_has_rep_le_six",
+    "Erdos374.exists_minimum_le",
+    "Erdos374.product_minimum_le_six",
+    "Erdos374.rep_527_six",
+    "Erdos374.rep_card_le",
+    "Erdos374.composite_minimum_le_six",
+    "Erdos374.D_empty_above_six",
+    "Erdos374.countD_le"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}
